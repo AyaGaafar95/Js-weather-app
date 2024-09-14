@@ -88,3 +88,61 @@ margin-top: -6px;
     margin-top: 10px;
     display: none;
 }
+
+
+
+
+
+@media (max-width:760px){
+    .card{
+        margin:auto;
+        width: 100%;
+    }
+    .search input{
+        padding: 10px 25px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .weather h1{
+        font-size: 50px;
+        font-weight: 500;
+        }
+        .weather h2 {
+            font-size: 35px;
+            font-weight: 400;
+            margin-top: 3px;
+        }
+    .humidity , .wind{
+        font-size: 15px;
+        margin-top: -6px;
+        }
+        .details p{
+            font-size: 15px;
+        }
+        .col img{
+            width: 25px;
+            margin-right: 10px;
+        }
+    
+        .search button{
+            border-radius: 50%;
+            width:30px;
+            height: 30px;
+            cursor: pointer;
+        }
+        .search button img{
+            width: 15px;
+        }
+        .error{
+           
+            font-size: 1em;
+            margin-top: 10px;
+            display: none;
+        }
+  }
+
+  @media (max-width:341px){
+        .details {
+            gap: 20px;
+        }
+  }
